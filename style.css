@@ -1,0 +1,62 @@
+body {
+  background: black;
+  color: red;
+  font-family: monospace;
+  text-align: center;
+  padding-top: 50px;
+}
+
+h1 {
+  letter-spacing: 5px;
+}
+
+input {
+  background: black;
+  color: red;
+  border: 1px solid red;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background: red;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.warning {
+  color: darkred;
+}
+
+#message {
+  margin-top: 20px;
+}
+
+video {
+  margin-top: 30px;
+  width: 80%;
+  max-width: 600px;
+}
+#redacted {
+  position: fixed;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #050505;
+  font-size: 12px;
+  opacity: 0.9;
+  user-select: text;       /* ← selectable now */
+  pointer-events: auto;    /* ← allows interaction */
+  text-align: center;
+}
+#cfa-only {
+  color: rgb(238, 255, 0);          /* or white if you want */
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
